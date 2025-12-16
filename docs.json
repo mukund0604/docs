@@ -1,0 +1,149 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Bacon Documentation",
+  "colors": {
+    "primary": "#FF6B35",
+    "light": "#FF8C61",
+    "dark": "#E55A2B"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/how-it-works",
+              "getting-started/onboarding"
+            ]
+          },
+          {
+            "group": "Brand Setup & Intelligence",
+            "pages": [
+              "brand-setup/understanding-brand-dna",
+              "brand-setup/edit-brand-assets"
+            ]
+          },
+          {
+            "group": "Creating Images",
+            "pages": [
+              "images/image-ads-overview",
+              "images/how-to-generate"
+            ]
+          },
+          {
+            "group": "Creating Videos",
+            "pages": [
+              "videos/video-ads-overview",
+              "videos/veo3-cinematic-ads",
+              "videos/influencer-videos"
+            ]
+          },
+          {
+            "group": "Workspace & Profile",
+            "pages": [
+              "workspace/workspace-overview",
+              "workspace/profile-settings"
+            ]
+          },
+          {
+            "group": "Billing & Credits",
+            "pages": [
+              "billing/plans-subscription",
+              "billing/credit-usage"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "advanced/autopilot-vs-pro-mode",
+              "advanced/generation-methods"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/generate-image",
+              "api-reference/generate-video",
+              "api-reference/brand-profile"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Support",
+          "href": "mailto:support@trybacon.ai",
+          "icon": "life-ring"
+        },
+        {
+          "anchor": "Dashboard",
+          "href": "https://app.trybacon.ai",
+          "icon": "gauge-high"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://discord.gg/bacon",
+          "icon": "discord"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/bacon-light.svg",
+    "dark": "/logo/bacon-dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact Support",
+        "href": "mailto:support@trybacon.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Launch Bacon",
+      "href": "https://app.trybacon.ai"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/trybacon_ai",
+      "linkedin": "https://linkedin.com/company/trybacon",
+      "website": "https://trybacon.ai"
+    }
+  },
+  "metadata": {
+    "og:title": "Bacon Documentation - AI-Powered Creative Advertising",
+    "og:description": "Complete guide to creating stunning image ads, video ads, and UGC content with Bacon's AI platform",
+    "og:image": "/og-image.png"
+  },
+  "search": {
+    "prompt": "Search Bacon docs..."
+  }
+}
