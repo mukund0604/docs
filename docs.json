@@ -14,72 +14,58 @@
         "tab": "Help Center",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Getting Started with Bacon",
             "pages": [
-              "getting-started/how-it-works",
-              "getting-started/onboarding"
+              "getting-started/welcome-to-bacon",
+              "getting-started/onboarding-guide"
             ]
           },
           {
-            "group": "Brand Setup & Intelligence",
+            "group": "Brand Setup & Brand Intelligence",
             "pages": [
-              "brand-setup/understanding-brand-dna",
+              "brand-setup/brand-dna",
               "brand-setup/edit-brand-assets"
             ]
           },
           {
-            "group": "Creating Images",
+            "group": "How To: Images",
             "pages": [
               "images/image-ads-overview",
-              "images/how-to-generate"
+              "images/generate-image-ads"
             ]
           },
           {
-            "group": "Creating Videos",
+            "group": "How To: Videos",
             "pages": [
-              "videos/video-ads-overview",
+              "videos/video-ads",
               "videos/veo3-cinematic-ads",
               "videos/influencer-videos"
             ]
           },
           {
-            "group": "Workspace & Profile",
+            "group": "Workspace & Profile Management",
             "pages": [
               "workspace/workspace-overview",
               "workspace/profile-settings"
             ]
           },
           {
-            "group": "Billing & Credits",
+            "group": "Billing and Credit Utilisation",
             "pages": [
-              "billing/plans-subscription",
+              "billing/subscription-management",
               "billing/credit-usage"
             ]
           },
           {
-            "group": "Advanced Features",
+            "group": "Pro vs Autopilot Mode",
             "pages": [
-              "advanced/autopilot-vs-pro-mode",
-              "advanced/generation-methods"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "modes/autopilot-vs-pro"
             ]
           },
           {
-            "group": "Endpoints",
+            "group": "Methods of Generation",
             "pages": [
-              "api-reference/generate-image",
-              "api-reference/generate-video",
-              "api-reference/brand-profile"
+              "generation/methods"
             ]
           }
         ]
