@@ -1,0 +1,99 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Bacon Help Center",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#FFFFFF"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@trybacon.ai"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://trybacon.ai"
+  },
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://docs.trybacon.ai"
+    },
+    {
+      "name": "Support",
+      "icon": "headset",
+      "url": "mailto:support@trybacon.ai"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started with Bacon",
+      "pages": [
+        "getting-started/welcome-to-bacon",
+        "getting-started/onboarding-guide"
+      ]
+    },
+    {
+      "group": "Brand Setup & Brand Intelligence",
+      "pages": [
+        "brand-setup/brand-dna",
+        "brand-setup/edit-brand-assets"
+      ]
+    },
+    {
+      "group": "How To: Images",
+      "pages": [
+        "images/image-ads-overview",
+        "images/generate-image-ads"
+      ]
+    },
+    {
+      "group": "How To: Videos",
+      "pages": [
+        "videos/video-ads",
+        "videos/veo3-cinematic-ads",
+        "videos/influencer-videos"
+      ]
+    },
+    {
+      "group": "Workspace & Profile Management",
+      "pages": [
+        "workspace/workspace-overview",
+        "workspace/profile-settings"
+      ]
+    },
+    {
+      "group": "Billing and Credit Utilisation",
+      "pages": [
+        "billing/subscription-management",
+        "billing/credit-usage"
+      ]
+    },
+    {
+      "group": "Pro vs Autopilot Mode",
+      "pages": [
+        "modes/autopilot-vs-pro"
+      ]
+    },
+    {
+      "group": "Methods of Generation",
+      "pages": [
+        "generation/methods"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/trybacon",
+    "github": "https://github.com/trybacon",
+    "linkedin": "https://www.linkedin.com/company/trybacon"
+  }
+}
+

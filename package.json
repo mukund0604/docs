@@ -1,0 +1,21 @@
+{
+  "name": "trybacon-help-center",
+  "version": "1.0.0",
+  "description": "Help center documentation for trybacon.ai built with Mintlify",
+  "scripts": {
+    "dev": "mintlify dev",
+    "start": "mintlify dev",
+    "build": "mintlify build"
+  },
+  "keywords": [
+    "documentation",
+    "mintlify",
+    "help-center"
+  ],
+  "author": "trybacon.ai",
+  "license": "MIT",
+  "devDependencies": {
+    "mintlify": "^3.0.0"
+  }
+}
+
