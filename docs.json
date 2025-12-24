@@ -92,8 +92,8 @@
     }
   },
   "logo": {
-    "light": "/logo/bacon-light.svg",
-    "dark": "/logo/bacon-dark.svg"
+    "light": "/logo/bacon-full.svg",
+    "dark": "/logo/bacon-full.svg"
   },
   "navbar": {
     "links": [

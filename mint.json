@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Bacon Documentation",
   "logo": {
-    "light": "https://www.trybacon.ai/bacon-full.svg",
-    "dark": "https://www.trybacon.ai/bacon-full.svg"
+    "light": "logo/bacon-full.svg",
+    "dark":  "logo/bacon-full.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "logo/bacon.svg",
   "colors": {
     "primary": "#FF6B35",
     "light": "#FF8C61",
