@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 218.87 300.13">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <mask id="mask" x="0" y="0" width="218.87" height="300.13" maskUnits="userSpaceOnUse">
+      <g>
+        <polygon class="cls-3" points="53.24 211.37 160.37 270.78 109.15 299.2 1.38 240 1.38 58.84 53.24 30.91 53.24 211.37"/>
+        <polygon class="cls-3" points="217.47 118.01 159.06 149.58 217.47 181.65 217.47 239.1 165.81 267.76 165.81 180.71 109.53 150 165.81 119.42 165.81 88.19 58.07 28.31 109.15 .81 217.47 59.67 217.47 118.01"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient" x1="0" y1="150.06" x2="218.87" y2="150.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#ff3b6a"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-1">
+      <rect class="cls-2" width="218.87" height="300.13"/>
+    </g>
+  </g>
+</svg>

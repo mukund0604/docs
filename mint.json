@@ -1,133 +1,104 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Bacon Documentation",
+  "logo": {
+    "light": "https://www.trybacon.ai/bacon-full.svg",
+    "dark": "https://www.trybacon.ai/bacon-full.svg"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#FF6B35",
     "light": "#FF8C61",
     "dark": "#E55A2B"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Help Center",
-        "groups": [
-          {
-            "group": "Getting Started with Bacon",
-            "pages": [
-              "getting-started/welcome-to-bacon",
-              "getting-started/onboarding-guide"
-            ]
-          },
-          {
-            "group": "Brand Setup & Brand Intelligence",
-            "pages": [
-              "brand-setup/brand-dna",
-              "brand-setup/edit-brand-assets"
-            ]
-          },
-          {
-            "group": "How To: Images",
-            "pages": [
-              "images/image-ads-overview",
-              "images/generate-image-ads"
-            ]
-          },
-          {
-            "group": "How To: Videos",
-            "pages": [
-              "videos/video-ads",
-              "videos/veo3-cinematic-ads",
-              "videos/influencer-videos"
-            ]
-          },
-          {
-            "group": "Workspace & Profile Management",
-            "pages": [
-              "workspace/workspace-overview",
-              "workspace/profile-settings"
-            ]
-          },
-          {
-            "group": "Billing and Credit Utilisation",
-            "pages": [
-              "billing/subscription-management",
-              "billing/credit-usage"
-            ]
-          },
-          {
-            "group": "Pro vs Autopilot Mode",
-            "pages": [
-              "modes/autopilot-vs-pro"
-            ]
-          },
-          {
-            "group": "Methods of Generation",
-            "pages": [
-              "generation/methods"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Support",
-          "href": "mailto:support@trybacon.ai",
-          "icon": "life-ring"
-        },
-        {
-          "anchor": "Dashboard",
-          "href": "https://app.trybacon.ai",
-          "icon": "gauge-high"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://discord.gg/bacon",
-          "icon": "discord"
-        }
+  "topbarLinks": [
+    {
+      "name": "Contact Support",
+      "url": "mailto:support@trybacon.ai"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Launch Bacon",
+    "url": "https://app.trybacon.ai"
+  },
+  "anchors": [
+    {
+      "name": "Support",
+      "icon": "life-ring",
+      "url": "mailto:support@trybacon.ai"
+    },
+    {
+      "name": "Dashboard",
+      "icon": "gauge-high",
+      "url": "https://app.trybacon.ai"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg/bacon"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started with Bacon",
+      "pages": [
+        "docs/getting-started/welcome-to-bacon",
+        "docs/getting-started/onboarding-guide"
+      ]
+    },
+    {
+      "group": "Brand Setup & Brand Intelligence",
+      "pages": [
+        "docs/brand-setup/brand-dna",
+        "docs/brand-setup/edit-brand-assets"
+      ]
+    },
+    {
+      "group": "How To: Images",
+      "pages": [
+        "docs/images/image-ads-overview",
+        "docs/images/generate-image-ads"
+      ]
+    },
+    {
+      "group": "How To: Videos",
+      "pages": [
+        "docs/videos/video-ads",
+        "docs/videos/veo3-cinematic-ads",
+        "docs/videos/influencer-videos"
+      ]
+    },
+    {
+      "group": "Workspace & Profile Management",
+      "pages": [
+        "docs/workspace/workspace-overview",
+        "docs/workspace/profile-settings"
+      ]
+    },
+    {
+      "group": "Billing and Credit Utilisation",
+      "pages": [
+        "docs/billing/subscription-management",
+        "docs/billing/credit-usage"
+      ]
+    },
+    {
+      "group": "Pro vs Autopilot Mode",
+      "pages": [
+        "docs/modes/autopilot-vs-pro"
+      ]
+    },
+    {
+      "group": "Methods of Generation",
+      "pages": [
+        "docs/generation/methods"
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/bacon-light.svg",
-    "dark": "/logo/bacon-dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact Support",
-        "href": "mailto:support@trybacon.ai"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Launch Bacon",
-      "href": "https://app.trybacon.ai"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/trybacon_ai",
-      "linkedin": "https://linkedin.com/company/trybacon",
-      "website": "https://trybacon.ai"
-    }
-  },
-  "metadata": {
-    "og:title": "Bacon Documentation - AI-Powered Creative Advertising",
-    "og:description": "Complete guide to creating stunning image ads, video ads, and UGC content with Bacon's AI platform",
-    "og:image": "/og-image.png"
+  ],
+  "footerSocials": {
+    "x": "https://x.com/trybacon_ai",
+    "linkedin": "https://linkedin.com/company/trybacon",
+    "website": "https://trybacon.ai"
   },
   "search": {
     "prompt": "Search Bacon docs..."

@@ -7,7 +7,7 @@
     "light": "#FF8C61",
     "dark": "#E55A2B"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/bacon.svg",
   "navigation": {
     "tabs": [
       {
@@ -16,56 +16,56 @@
           {
             "group": "Getting Started with Bacon",
             "pages": [
-              "getting-started/welcome-to-bacon",
-              "getting-started/onboarding-guide"
+              "docs/getting-started/welcome-to-bacon",
+              "docs/getting-started/onboarding-guide"
             ]
           },
           {
             "group": "Brand Setup & Brand Intelligence",
             "pages": [
-              "brand-setup/brand-dna",
-              "brand-setup/edit-brand-assets"
+              "docs/brand-setup/brand-dna",
+              "docs/brand-setup/edit-brand-assets"
             ]
           },
           {
             "group": "How To: Images",
             "pages": [
-              "images/image-ads-overview",
-              "images/generate-image-ads"
+              "docs/images/image-ads-overview",
+              "docs/images/generate-image-ads"
             ]
           },
           {
             "group": "How To: Videos",
             "pages": [
-              "videos/video-ads",
-              "videos/veo3-cinematic-ads",
-              "videos/influencer-videos"
+              "docs/videos/video-ads",
+              "docs/videos/veo3-cinematic-ads",
+              "docs/videos/influencer-videos"
             ]
           },
           {
             "group": "Workspace & Profile Management",
             "pages": [
-              "workspace/workspace-overview",
-              "workspace/profile-settings"
+              "docs/workspace/workspace-overview",
+              "docs/workspace/profile-settings"
             ]
           },
           {
             "group": "Billing and Credit Utilisation",
             "pages": [
-              "billing/subscription-management",
-              "billing/credit-usage"
+              "docs/billing/subscription-management",
+              "docs/billing/credit-usage"
             ]
           },
           {
             "group": "Pro vs Autopilot Mode",
             "pages": [
-              "modes/autopilot-vs-pro"
+              "docs/modes/autopilot-vs-pro"
             ]
           },
           {
             "group": "Methods of Generation",
             "pages": [
-              "generation/methods"
+              "docs/generation/methods"
             ]
           }
         ]
