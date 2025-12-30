@@ -63,7 +63,7 @@
     {
       "group": "How To: Videos",
       "pages": [
-        "docs/videos/UGC-Markerting-Ads"
+        "docs/videos/UGC-Markerting-Ads",
         "docs/videos/video-ads",
         "docs/videos/veo3-cinematic-ads",
         "docs/videos/influencer-videos"
@@ -83,12 +83,7 @@
         "docs/billing/credit-usage"
       ]
     },
-    {
-      "group": "Pro vs Autopilot Mode",
-      "pages": [
-        "docs/modes/autopilot-vs-pro"
-      ]
-    },
+
     {
       "group": "Methods of Generation",
       "pages": [
